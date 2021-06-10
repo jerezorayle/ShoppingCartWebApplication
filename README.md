@@ -1,4 +1,4 @@
-Jerez Orayle
+Jerez Orayle |
 .Net Developer
 
 Shopping Cart Application with CRUD Functionality and Login/Register Account
