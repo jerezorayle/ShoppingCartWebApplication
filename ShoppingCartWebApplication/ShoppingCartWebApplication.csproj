@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-ShoppingCartWebApplication-ED6E5246-61E1-4EE9-B421-E586FA8430CB</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210608183838_AddedQuantityColumnToProductTable.cs" />
+    <Compile Remove="Migrations\20210608183838_AddedQuantityColumnToProductTable.Designer.cs" />
+    <Compile Remove="Migrations\20210610143428_RenamedTables.cs" />
+    <Compile Remove="Migrations\20210610143428_RenamedTables.Designer.cs" />
+    <Compile Remove="Migrations\20210610143748_RenamedTables.cs" />
+    <Compile Remove="Migrations\20210610143748_RenamedTables.Designer.cs" />
+    <Compile Remove="Migrations\20210610144844_RenamedTables.cs" />
+    <Compile Remove="Migrations\20210610144844_RenamedTables.Designer.cs" />
+    <Compile Remove="Migrations\20210610145129_RenamedTables.cs" />
+    <Compile Remove="Migrations\20210610145129_RenamedTables.Designer.cs" />
+    <Compile Remove="Migrations\20210610145351_RenamedTables.cs" />
+    <Compile Remove="Migrations\20210610145351_RenamedTables.Designer.cs" />
+    <Compile Remove="Migrations\20210610150132_test.cs" />
+    <Compile Remove="Migrations\20210610150132_test.Designer.cs" />
+    <Compile Remove="Migrations\20210610150921_test.cs" />
+    <Compile Remove="Migrations\20210610150921_test.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MySQLDatabaseSchema\" />
+  </ItemGroup>
+
+</Project>
