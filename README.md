@@ -4,6 +4,6 @@ Jerez Orayle |
 Shopping Cart Application with CRUD Functionality and Login/Register Account
 
 Technologies Used:
-ASP.Net Core 3.1 |
+ASP.Net Core 3.1 MVC |
 Entity Framework Core |
 MySQL Database |
